@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "source_id": "textbook_userbehavior",
+  "header": false,
+  "columns": {"user_id": "VARCHAR", "goods_id": "VARCHAR", "category_id": "VARCHAR", "behaviour": "VARCHAR", "timestamp": "VARCHAR"},
+  "delimiter": ",",
+  "encoding": "utf-8",
+  "quote": "\"",
+  "escape": "\"",
+  "nullstr": "",
+  "allow_quoted_nulls": true,
+  "auto_detect": false,
+  "ignore_errors": false,
+  "strict_mode": true,
+  "null_padding": false,
+  "trim": false,
+  "bad_rows": "error_and_stop",
+  "time_unit": "unknown",
+  "timezone": "unknown"
+}

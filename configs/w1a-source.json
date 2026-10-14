@@ -1,0 +1,24 @@
+{
+  "source_id": "textbook_userbehavior",
+  "path": "D:\\大数据项目\\电商用户行为分析\\第9章\\UserBehavior.csv",
+  "read_contract_ref": "configs/w1a-source.json#candidate_contract",
+  "candidate_contract": {
+    "validation": "not_run",
+    "header": false,
+    "columns": ["user_id", "goods_id", "category_id", "behaviour", "timestamp"],
+    "delimiter": {"candidate": ",", "verified": false},
+    "encoding": {"candidate": "UTF-8", "errors": "strict", "fallback": false, "verified": false},
+    "null_markers": "pending_explicit_W1-B_freeze",
+    "column_types": "unverified; identifiers retain string semantics",
+    "bad_rows": "error_and_stop",
+    "time_unit": "unverified",
+    "timezone": "unverified",
+    "source": {
+      "path": "D:\\大数据项目\\电商用户行为分析\\第9章\\第9章例题.py",
+      "header_and_columns_lines": [11, 14],
+      "behaviour_filter_lines": [202, 203, 204, 205],
+      "behaviour_code_expectations": ["pv", "buy", "cart", "fav"],
+      "provenance": "user handoff references only; source code not opened or executed this run"
+    }
+  }
+}

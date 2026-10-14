@@ -1,0 +1,15 @@
+/.venv/
+/.cache/
+/.idea/
+**/__pycache__/
+*.py[cod]
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+/outputs/
